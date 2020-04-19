@@ -5,6 +5,9 @@ import React from 'react';
 import Navbar from './components/navbar.jsx';
 import Main from './pages/main';
 import GitRepo from './pages/gitRepo';
+import Blog from './pages/blog';
+import CV from './pages/cv';
+import Photos from './pages/photos';
 
 /**
  * Import router
@@ -34,6 +37,15 @@ function App() {
           </Route>
           <Route path='/gitRepo'>
             <GitRepo />
+          </Route>
+          <Route path='/blog'>
+            <Blog />
+          </Route>
+          <Route path='/photos'>
+            <Photos />
+          </Route>
+          <Route path='/cv'>
+            <CV />
           </Route>
         </Switch>
       </Router>

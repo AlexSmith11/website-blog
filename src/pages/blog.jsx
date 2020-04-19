@@ -3,15 +3,15 @@ import { Navbar, Nav } from 'react-bootstrap';
 import { useRouteMatch } from 'react-router-dom';
 
 /**
- * Git Repo page
+ * Blog page
  */
 const About = () => {
   let match = useRouteMatch;
 
   return (
     <div>
-      <h1>GitHub Repo Page</h1>
-      <p>Big Table here.</p>
+      <h1>Blog</h1>
+      <p>Lots of text here.</p>
     </div>
   );
 };

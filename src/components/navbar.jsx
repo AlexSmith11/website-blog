@@ -7,15 +7,21 @@ class TopNav extends Component {
     return (
       <div>
         <Navbar bg='dark' variant='dark'>
-          <Navbar.Brand as={Link} to='main'>
-            MHW Dictionary
-          </Navbar.Brand>
           <Nav className='mr-auto'>
             <Nav.Link as={Link} to='main'>
               Home
             </Nav.Link>
+            <Nav.Link as={Link} to='blog'>
+              Blog
+            </Nav.Link>
             <Nav.Link as={Link} to='gitRepo'>
               Projects
+            </Nav.Link>
+            <Nav.Link as={Link} to='photos'>
+              Photos
+            </Nav.Link>
+            <Nav.Link as={Link} to='cv'>
+              CV
             </Nav.Link>
           </Nav>
         </Navbar>
