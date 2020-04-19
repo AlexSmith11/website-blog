@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { useRouteMatch } from 'react-router-dom';
+import '../styles/styles.css';
 
 /**
  * Photo gallery page
@@ -9,8 +10,10 @@ const About = () => {
 
   return (
     <div>
-      <h1>Pictures I have taken</h1>
-      <p>Photo gallery here.</p>
+      <div className='title'>
+        <h1>Pictures I have taken</h1>
+      </div>
+      <p>[Photo gallery here.]</p>
     </div>
   );
 };

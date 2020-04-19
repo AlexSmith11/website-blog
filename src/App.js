@@ -3,8 +3,8 @@ import React from 'react';
  * Import components
  */
 import Navbar from './components/navbar.jsx';
-import Main from './pages/main';
-import GitRepo from './pages/gitRepo';
+import Main from './pages/home';
+import GitRepo from './pages/git';
 import Blog from './pages/blog';
 import CV from './pages/cv';
 import Photos from './pages/photos';
@@ -32,10 +32,10 @@ function App() {
         <Navbar />
         <Switch>
           <Redirect exact from='/' to='main'></Redirect>
-          <Route path='/main'>
+          <Route path='/home'>
             <Main />
           </Route>
-          <Route path='/gitRepo'>
+          <Route path='/git'>
             <GitRepo />
           </Route>
           <Route path='/blog'>

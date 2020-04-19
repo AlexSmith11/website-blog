@@ -3,16 +3,19 @@ import { useRouteMatch } from 'react-router-dom';
 import '../styles/styles.css';
 
 /**
- * Main page
+ * Git Repo page
  */
-const Main = () => {
+const About = () => {
   let match = useRouteMatch;
 
   return (
-    <div className='homeTitle'>
-      <h1>Home Page</h1>
+    <div>
+      <div className='title'>
+        <h1>GitHub Repositories</h1>
+      </div>
+      <p>[Big Table here.]</p>
     </div>
   );
 };
 
-export default Main;
+export default About;

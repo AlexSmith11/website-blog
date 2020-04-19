@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { useRouteMatch } from 'react-router-dom';
+import '../styles/styles.css';
 
 /**
  * Blog page
@@ -9,8 +10,10 @@ const About = () => {
 
   return (
     <div>
-      <h1>CV</h1>
-      <p>CV goes here.</p>
+      <div className='title'>
+        <h1>CV</h1>
+      </div>
+      <p>[CV goes here.]</p>
     </div>
   );
 };
