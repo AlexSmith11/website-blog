@@ -1,28 +1,39 @@
 import React, { Component } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import '../styles/navbar.css';
 
 class TopNav extends Component {
   render() {
     return (
-      <div>
-        <Navbar bg='dark' variant='dark'>
+      <div className='navbarTop'>
+        <Navbar variant='light' className='navbar-color-1'>
           <Nav className='mr-auto'>
-            <Nav.Link as={Link} to='main'>
-              Home
-            </Nav.Link>
-            <Nav.Link as={Link} to='blog'>
-              Blog
-            </Nav.Link>
-            <Nav.Link as={Link} to='gitRepo'>
-              Projects
-            </Nav.Link>
-            <Nav.Link as={Link} to='photos'>
-              Photos
-            </Nav.Link>
-            <Nav.Link as={Link} to='cv'>
-              CV
-            </Nav.Link>
+            <div className='navbutton'>
+              <Nav.Link as={Link} to='main'>
+                Home
+              </Nav.Link>
+            </div>
+            <div className='navbutton'>
+              <Nav.Link as={Link} to='blog'>
+                Blog
+              </Nav.Link>
+            </div>
+            <div className='navbutton'>
+              <Nav.Link as={Link} to='gitRepo'>
+                Projects
+              </Nav.Link>
+            </div>
+            <div className='navbutton'>
+              <Nav.Link as={Link} to='photos'>
+                Photos
+              </Nav.Link>
+            </div>
+            <div className='navbutton'>
+              <Nav.Link as={Link} to='cv'>
+                CV
+              </Nav.Link>
+            </div>
           </Nav>
         </Navbar>
       </div>
