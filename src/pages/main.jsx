@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { useRouteMatch } from 'react-router-dom';
+import '../styles/styles.css';
 
 /**
  * Main page
@@ -7,7 +8,11 @@ import { useRouteMatch } from 'react-router-dom';
 const Main = () => {
   let match = useRouteMatch;
 
-  return <h1>Home Page</h1>;
+  return (
+    <div className='homeTitle'>
+      <h1>Home Page</h1>
+    </div>
+  );
 };
 
 export default Main;

@@ -13,6 +13,9 @@ These include setting up:<br />
 An emphasis will be placed on making these features visually/aesthetically good looking/pleasing.<br />
 Designs for each page will be done by hand and then via Figma.<br />
 
+Quick design notes:<br />
+There are multiple css files because I'm 1: a noob with css and 2: wanting to have v different looks on various pages (one will be a photo gallery, another a github table) so keeping them seperate is easier.
+
 #This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
