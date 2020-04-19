@@ -17,7 +17,7 @@ import {
   Switch,
   Route,
   Redirect,
-  useRouteMatch
+  useRouteMatch // eslint-disable-line no-unused-vars
 } from 'react-router-dom';
 
 /**
