@@ -1,0 +1,29 @@
+/* Add boxes around each button */
+.navbutton {
+  border: 2px solid black;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-left: 5px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  font-family: Quicksand;
+}
+
+.navbar-color-1 {
+  background-color: #fcf6dd;
+  margin-top: 15px;
+}
+
+.pageName {
+  padding-top: 0rem;
+  font-size: 3rem;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1rem;
+  padding: 0;
+}
