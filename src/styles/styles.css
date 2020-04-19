@@ -1,7 +1,17 @@
+/* Global styles go in here. Page specific styles should be placed in the relative css file. */
+
 h1 {
   font-family: Quicksand;
 }
 
+h2 {
+  font-family: Quicksand;
+}
+
+h3 {
+  font-family: Quicksand;
+}
+
 .title {
-  margin-left: 20px;
+  margin-left: 1rem;
 }
