@@ -1,21 +1,42 @@
 import React from 'react';
+/**
+ * Import components
+ */
+import Navbar from './components/navbar.jsx';
+import Main from './pages/main';
+import GitRepo from './pages/gitRepo';
+
+/**
+ * Import router
+ */
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+  useRouteMatch
+} from 'react-router-dom';
+
+/**
+ * Import any image, fonts, styling, etcs
+ */
 import './App.css';
-import elliot from './elliot.jpg';
 
 function App() {
   return (
-    <div className='App'>
-      <header className='App-header'>
-        <img src={elliot} className='App-logo' alt='elliot' />
-        <p>I win, Elliot eat my ass</p>
-        {/* <a
-          className='App-link'
-          href='https://reactjs.org'
-          target='_blank'
-          rel='noopener noreferrer'>
-          Learn React
-        </a> */}
-      </header>
+    <div>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Redirect exact from='/' to='main'></Redirect>
+          <Route path='/main'>
+            <Main />
+          </Route>
+          <Route path='/gitRepo'>
+            <GitRepo />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
