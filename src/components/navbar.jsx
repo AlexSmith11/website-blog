@@ -41,7 +41,7 @@ class TopNav extends Component {
             </div>
             <div className='navbutton'>
               <Nav.Link as={Link} to='photos'>
-                Photo Gallery
+                Gallery
               </Nav.Link>
             </div>
             <div className='navbutton'>

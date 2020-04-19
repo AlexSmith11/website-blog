@@ -31,7 +31,7 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Redirect exact from='/' to='main'></Redirect>
+          <Redirect exact from='/' to='home'></Redirect>
           <Route path='/home'>
             <Main />
           </Route>
