@@ -20,83 +20,83 @@ const About = () => {
         <div
           className='card'
           style={{ backgroundImage: "url('https://i.imgur.com/BhZP03u.jpg')" }}>
-          1
+          <a>Rock</a>
         </div>
         <div
           className='card'
-          style={{ backgroundImage: "url('https://i.imgur.com/cxAZNPp.jpg')" }}>
-          2
-        </div>
+          style={{
+            backgroundImage: "url('https://i.imgur.com/cxAZNPp.jpg')"
+          }}></div>
         <div
           className='card'
-          style={{ backgroundImage: "url('https://i.imgur.com/hse7Vu6.jpg')" }}>
-          3
-        </div>
+          style={{
+            backgroundImage: "url('https://i.imgur.com/hse7Vu6.jpg')"
+          }}></div>
         <div
           className='card'
-          style={{ backgroundImage: "url('https://i.imgur.com/casNU6V.jpg')" }}>
-          4
-        </div>
+          style={{
+            backgroundImage: "url('https://i.imgur.com/casNU6V.jpg')"
+          }}></div>
         <div
           className='card'
-          style={{ backgroundImage: "url('https://i.imgur.com/ILx0kCc.jpg')" }}>
-          5
-        </div>
+          style={{
+            backgroundImage: "url('https://i.imgur.com/ILx0kCc.jpg')"
+          }}></div>
         <div
           className='card'
-          style={{ backgroundImage: "url('https://i.imgur.com/HoNqh2h.jpg')" }}>
-          6
-        </div>
+          style={{
+            backgroundImage: "url('https://i.imgur.com/HoNqh2h.jpg')"
+          }}></div>
         <div
           className='card'
-          style={{ backgroundImage: "url('https://i.imgur.com/fSh9PNX.jpg')" }}>
-          7
-        </div>
+          style={{
+            backgroundImage: "url('https://i.imgur.com/fSh9PNX.jpg')"
+          }}></div>
         <div
           className='card'
-          style={{ backgroundImage: "url('https://i.imgur.com/sOBJAQA.jpg')" }}>
-          8
-        </div>
+          style={{
+            backgroundImage: "url('https://i.imgur.com/sOBJAQA.jpg')"
+          }}></div>
         <div
           className='card'
-          style={{ backgroundImage: "url('https://i.imgur.com/9elBvTs.png')" }}>
-          9
-        </div>
+          style={{
+            backgroundImage: "url('https://i.imgur.com/9elBvTs.png')"
+          }}></div>
         <div
           className='card'
-          style={{ backgroundImage: "url('https://i.imgur.com/9mZUiNY.jpg')" }}>
-          10
-        </div>
+          style={{
+            backgroundImage: "url('https://i.imgur.com/9mZUiNY.jpg')"
+          }}></div>
         <div
           className='card'
-          style={{ backgroundImage: "url('https://i.imgur.com/MM2DLvM.jpg')" }}>
-          11
-        </div>
+          style={{
+            backgroundImage: "url('https://i.imgur.com/MM2DLvM.jpg')"
+          }}></div>
         <div
           className='card'
-          style={{ backgroundImage: "url('https://i.imgur.com/Wa1lYJf.jpg')" }}>
-          12
-        </div>
+          style={{
+            backgroundImage: "url('https://i.imgur.com/Wa1lYJf.jpg')"
+          }}></div>
         <div
           className='card'
-          style={{ backgroundImage: "url('https://i.imgur.com/XZ5mF1F.jpg')" }}>
-          13
-        </div>
+          style={{
+            backgroundImage: "url('https://i.imgur.com/XZ5mF1F.jpg')"
+          }}></div>
         <div
           className='card'
-          style={{ backgroundImage: "url('https://i.imgur.com/akoNHJQ.jpg')" }}>
-          14
-        </div>
+          style={{
+            backgroundImage: "url('https://i.imgur.com/akoNHJQ.jpg')"
+          }}></div>
         <div
           className='card'
-          style={{ backgroundImage: "url('https://i.imgur.com/825MISP.jpg')" }}>
-          15
-        </div>
+          style={{
+            backgroundImage: "url('https://i.imgur.com/825MISP.jpg')"
+          }}></div>
         <div
           className='card'
-          style={{ backgroundImage: "url('https://i.imgur.com/hAUV8EA.jpg')" }}>
-          16
-        </div>
+          style={{
+            backgroundImage: "url('https://i.imgur.com/hAUV8EA.jpg')"
+          }}></div>
       </div>
     </div>
   );

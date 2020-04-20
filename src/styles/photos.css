@@ -3,6 +3,11 @@
   margin-bottom: 1rem;
 }
 
+a {
+  margin-bottom: 0rem;
+  font-family: Quicksand;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
 
 body {
