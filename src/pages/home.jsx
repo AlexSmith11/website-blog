@@ -8,8 +8,6 @@ import '../styles/home.css';
  * We use Bootstraps grid system to make sure we get our text layout correct.
  */
 const Main = () => {
-  let match = useRouteMatch;
-
   return (
     <div className='container'>
       <div className='row'>
@@ -21,7 +19,7 @@ const Main = () => {
         </div>
       </div>
       <div className='row'>
-        <div className='col-7'>
+        <div className='col-10'>
           <div className='text'>
             <p>
               I'm a newly graduated enthusiast, recently finishing a 6 month
@@ -39,13 +37,23 @@ const Main = () => {
               hiking, biking, or just trying to get a good shot.
             </p>
             <p>
-              <a href='mailto:alexsmith11nd@gmail.com'>Get in touch :)</a>
+              Get in touch:&nbsp;
+              <a href='mailto:alexsmith11nd@gmail.com' style={styles}>
+                <u>alexsmith11nd@gmail.com</u>
+              </a>
             </p>
           </div>
         </div>
       </div>
     </div>
   );
+};
+
+/**
+ * mailto links are annoying - overide the blue link text
+ */
+const styles = {
+  color: 'inherit'
 };
 
 export default Main;
