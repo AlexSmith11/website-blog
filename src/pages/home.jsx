@@ -19,7 +19,7 @@ const Main = () => {
         </div>
       </div>
       <div className='row'>
-        <div className='col-7'>
+        <div className='col-10'>
           <div className='text'>
             <p>
               I'm a newly graduated enthusiast, recently finishing a 6 month
