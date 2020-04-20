@@ -10,8 +10,10 @@ const About = () => {
 
   return (
     <div>
-      <div className='title'>
-        <h1>Pictures I have taken</h1>
+      <div className='container'>
+        <div className='title'>
+          <h1>Pictures I have taken</h1>
+        </div>
       </div>
       <p>[Photo gallery here.]</p>
     </div>
