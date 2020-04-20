@@ -22,15 +22,17 @@ const Main = () => {
         </div>
       </div>
       <div className='row'>
-        <div className='col-sm'>
+        <div className='col-lg'>
           <About />
         </div>
-        <div className='col-sm'>
+        <div className='col-lg'>
           <Skills />
         </div>
-        <div className='col-sm'>
+        <div className='col-lg'>
           <Projects />
         </div>
+      </div>
+      <div className='row'>
         <div className='col-sm'>
           <div className='bottom-padding'></div>
         </div>
