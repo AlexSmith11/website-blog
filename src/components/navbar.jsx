@@ -3,7 +3,6 @@ import { Navbar, Nav } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import { Link, withRouter } from 'react-router-dom';
 import '../styles/navbar.css';
-import NavbarCollapse from 'react-bootstrap/NavbarCollapse';
 
 class TopNav extends Component {
   propTypes = {
@@ -25,7 +24,8 @@ class TopNav extends Component {
             </h1>
           </div>
 
-          <NavbarCollapse id='basic-navbar-nav'>
+          <Navbar.Toggle aria-controls='basic-navbar-nav' />
+          <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ml-auto'>
               <div className='navbutton'>
                 <Nav.Link as={Link} to='home'>
@@ -53,7 +53,7 @@ class TopNav extends Component {
               </Nav.Link>
             </div> */}
             </Nav>
-          </NavbarCollapse>
+          </Navbar.Collapse>
         </Navbar>
         <hr />
       </div>
