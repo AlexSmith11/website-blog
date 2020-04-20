@@ -3,6 +3,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import { Link, withRouter } from 'react-router-dom';
 import '../styles/navbar.css';
+import NavbarCollapse from 'react-bootstrap/NavbarCollapse';
 
 class TopNav extends Component {
   propTypes = {
@@ -16,40 +17,43 @@ class TopNav extends Component {
 
     return (
       <div className='navbarTop'>
-        <Navbar variant='light' className='navbar-color-1'>
+        <Navbar variant='light' className='navbar-color-1' expand='lg'>
           <div>
             <h1 className='pageName'>
               {location.pathname.substring(1).charAt(0).toUpperCase() +
                 location.pathname.substring(1).slice(1)}
             </h1>
           </div>
-          <Nav className='ml-auto'>
-            <div className='navbutton'>
-              <Nav.Link as={Link} to='home'>
-                Home
-              </Nav.Link>
-            </div>
-            <div className='navbutton'>
-              <Nav.Link as={Link} to='git'>
-                Projects
-              </Nav.Link>
-            </div>
-            <div className='navbutton'>
-              <Nav.Link as={Link} to='blog'>
-                Blog
-              </Nav.Link>
-            </div>
-            <div className='navbutton'>
-              <Nav.Link as={Link} to='photos'>
-                Gallery
-              </Nav.Link>
-            </div>
-            {/* <div className='navbutton'>
+
+          <NavbarCollapse id='basic-navbar-nav'>
+            <Nav className='ml-auto'>
+              <div className='navbutton'>
+                <Nav.Link as={Link} to='home'>
+                  Home
+                </Nav.Link>
+              </div>
+              <div className='navbutton'>
+                <Nav.Link as={Link} to='git'>
+                  Projects
+                </Nav.Link>
+              </div>
+              <div className='navbutton'>
+                <Nav.Link as={Link} to='blog'>
+                  Blog
+                </Nav.Link>
+              </div>
+              <div className='navbutton'>
+                <Nav.Link as={Link} to='photos'>
+                  Gallery
+                </Nav.Link>
+              </div>
+              {/* <div className='navbutton'>
               <Nav.Link as={Link} to='about'>
                 About
               </Nav.Link>
             </div> */}
-          </Nav>
+            </Nav>
+          </NavbarCollapse>
         </Navbar>
         <hr />
       </div>
