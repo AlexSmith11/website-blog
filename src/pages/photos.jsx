@@ -23,12 +23,12 @@ const About = () => {
           <a></a>
         </div>
         <div
-          className='card'
+          className='card card-tall'
           style={{
             backgroundImage: "url('https://i.imgur.com/cxAZNPp.jpg')"
           }}></div>
         <div
-          className='card'
+          className='card card-tall'
           style={{
             backgroundImage: "url('https://i.imgur.com/hse7Vu6.jpg')"
           }}></div>
@@ -38,7 +38,7 @@ const About = () => {
             backgroundImage: "url('https://i.imgur.com/casNU6V.jpg')"
           }}></div>
         <div
-          className='card'
+          className='card card-tall'
           style={{
             backgroundImage: "url('https://i.imgur.com/ILx0kCc.jpg')"
           }}></div>
@@ -48,19 +48,19 @@ const About = () => {
             backgroundImage: "url('https://i.imgur.com/HoNqh2h.jpg')"
           }}></div>
         <div
-          className='card'
+          className='card card-tall'
           style={{
             backgroundImage: "url('https://i.imgur.com/fSh9PNX.jpg')"
           }}></div>
         <div
           className='card'
           style={{
-            backgroundImage: "url('https://i.imgur.com/sOBJAQA.jpg')"
+            backgroundImage: "url('https://i.imgur.com/9elBvTs.png')"
           }}></div>
         <div
-          className='card'
+          className='card card-tall'
           style={{
-            backgroundImage: "url('https://i.imgur.com/9elBvTs.png')"
+            backgroundImage: "url('https://i.imgur.com/hAUV8EA.jpg    ')"
           }}></div>
         <div
           className='card'
@@ -78,12 +78,12 @@ const About = () => {
             backgroundImage: "url('https://i.imgur.com/Wa1lYJf.jpg')"
           }}></div>
         <div
-          className='card'
+          className='card card-wide'
           style={{
             backgroundImage: "url('https://i.imgur.com/XZ5mF1F.jpg')"
           }}></div>
         <div
-          className='card'
+          className='card card-tall'
           style={{
             backgroundImage: "url('https://i.imgur.com/akoNHJQ.jpg')"
           }}></div>
@@ -95,7 +95,7 @@ const About = () => {
         <div
           className='card'
           style={{
-            backgroundImage: "url('https://i.imgur.com/hAUV8EA.jpg')"
+            backgroundImage: "url('https://i.imgur.com/sOBJAQA.jpg')"
           }}></div>
       </div>
     </div>
