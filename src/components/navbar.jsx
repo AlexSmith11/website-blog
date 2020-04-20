@@ -16,40 +16,44 @@ class TopNav extends Component {
 
     return (
       <div className='navbarTop'>
-        <Navbar variant='light' className='navbar-color-1'>
+        <Navbar variant='light' className='navbar-color-1' expand='lg'>
           <div>
             <h1 className='pageName'>
               {location.pathname.substring(1).charAt(0).toUpperCase() +
                 location.pathname.substring(1).slice(1)}
             </h1>
           </div>
-          <Nav className='ml-auto'>
-            <div className='navbutton'>
-              <Nav.Link as={Link} to='home'>
-                Home
-              </Nav.Link>
-            </div>
-            <div className='navbutton'>
-              <Nav.Link as={Link} to='git'>
-                Projects
-              </Nav.Link>
-            </div>
-            <div className='navbutton'>
-              <Nav.Link as={Link} to='blog'>
-                Blog
-              </Nav.Link>
-            </div>
-            <div className='navbutton'>
-              <Nav.Link as={Link} to='photos'>
-                Gallery
-              </Nav.Link>
-            </div>
-            {/* <div className='navbutton'>
+
+          <Navbar.Toggle aria-controls='basic-navbar-nav' />
+          <Navbar.Collapse id='basic-navbar-nav'>
+            <Nav className='ml-auto'>
+              <div className='navbutton'>
+                <Nav.Link as={Link} to='home'>
+                  Home
+                </Nav.Link>
+              </div>
+              <div className='navbutton'>
+                <Nav.Link as={Link} to='git'>
+                  Projects
+                </Nav.Link>
+              </div>
+              <div className='navbutton'>
+                <Nav.Link as={Link} to='blog'>
+                  Blog
+                </Nav.Link>
+              </div>
+              <div className='navbutton'>
+                <Nav.Link as={Link} to='photos'>
+                  Gallery
+                </Nav.Link>
+              </div>
+              {/* <div className='navbutton'>
               <Nav.Link as={Link} to='about'>
                 About
               </Nav.Link>
             </div> */}
-          </Nav>
+            </Nav>
+          </Navbar.Collapse>
         </Navbar>
         <hr />
       </div>
