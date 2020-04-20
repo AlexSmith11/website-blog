@@ -8,6 +8,7 @@
   margin-right: 1rem;
   margin-bottom: 5px;
   font-family: Quicksand;
+  width: 8.8rem;
 }
 
 .navbar-color-1 {
@@ -16,7 +17,7 @@
 }
 
 .pageName {
-  margin-left: 0rem;
+  margin-left: 1rem;
   padding-top: 0rem;
   font-size: 3rem;
 }
