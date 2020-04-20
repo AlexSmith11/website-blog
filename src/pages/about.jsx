@@ -12,7 +12,7 @@ const About = () => {
   return (
     <div className='container'>
       <div className='title'>
-        <h1>My Résumé</h1>
+        <h1>About me</h1>
       </div>
       <div className='text'>
         <p>[CV text here]</p>

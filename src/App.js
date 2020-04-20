@@ -6,7 +6,7 @@ import Navbar from './components/navbar.jsx';
 import Main from './pages/home';
 import GitRepo from './pages/git';
 import Blog from './pages/blog';
-import CV from './pages/cv';
+import About from './pages/about';
 import Photos from './pages/photos';
 
 /**
@@ -44,8 +44,8 @@ function App() {
           <Route path='/photos'>
             <Photos />
           </Route>
-          <Route path='/cv'>
-            <CV />
+          <Route path='/about'>
+            <About />
           </Route>
         </Switch>
       </Router>
