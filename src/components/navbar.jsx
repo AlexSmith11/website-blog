@@ -30,13 +30,13 @@ class TopNav extends Component {
               </Nav.Link>
             </div>
             <div className='navbutton'>
-              <Nav.Link as={Link} to='blog'>
-                Blog
+              <Nav.Link as={Link} to='git'>
+                Projects
               </Nav.Link>
             </div>
             <div className='navbutton'>
-              <Nav.Link as={Link} to='git'>
-                Projects
+              <Nav.Link as={Link} to='blog'>
+                Blog
               </Nav.Link>
             </div>
             <div className='navbutton'>
@@ -44,11 +44,11 @@ class TopNav extends Component {
                 Gallery
               </Nav.Link>
             </div>
-            <div className='navbutton'>
-              <Nav.Link as={Link} to='cv'>
-                CV
+            {/* <div className='navbutton'>
+              <Nav.Link as={Link} to='about'>
+                About
               </Nav.Link>
-            </div>
+            </div> */}
           </Nav>
         </Navbar>
         <hr />

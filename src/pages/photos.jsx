@@ -20,7 +20,7 @@ const About = () => {
         <div
           className='card'
           style={{ backgroundImage: "url('https://i.imgur.com/BhZP03u.jpg')" }}>
-          <a>Rock</a>
+          <a></a>
         </div>
         <div
           className='card'
