@@ -1,4 +1,5 @@
 import React from 'react';
+
 const About = () => {
   return (
     <div className='text'>
@@ -18,7 +19,7 @@ const About = () => {
         biking, or just trying to get a good shot.
       </p>
       <p>
-        Get in touch:&nbsp;
+        Get in touch:{' '}
         <a href='mailto:alexsmith11nd@gmail.com' style={styles}>
           <u>alexsmith11nd@gmail.com</u>
         </a>

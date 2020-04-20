@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { useRouteMatch } from 'react-router-dom';
 import About from '../components/About';
 import Skills from '../components/Skills';
+import Projects from '../components/Projects';
 import '../styles/styles.css';
 import '../styles/home.css';
 
@@ -26,6 +27,9 @@ const Main = () => {
         </div>
         <div className='col-sm'>
           <Skills />
+        </div>
+        <div className='col-sm'>
+          <Projects />
         </div>
       </div>
     </div>
