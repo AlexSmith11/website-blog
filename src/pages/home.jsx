@@ -31,6 +31,9 @@ const Main = () => {
         <div className='col-sm'>
           <Projects />
         </div>
+        <div className='col-sm'>
+          <div className='bottom-padding'></div>
+        </div>
       </div>
     </div>
   );
