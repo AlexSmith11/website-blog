@@ -39,7 +39,7 @@ const Main = () => {
               hiking, biking, or just trying to get a good shot.
             </p>
             <p>
-              <a href='mailto:alexsmith11nd@gmail.com'>Get in touch.</a>
+              <a href='mailto:alexsmith11nd@gmail.com'>Get in touch :)</a>
             </p>
           </div>
         </div>
