@@ -14,6 +14,12 @@ const About = () => {
       <div className='container'>
         <div className='title'>
           <h1>Some pictures I have taken</h1>
+          <h3>
+            More on{' '}
+            <a href='https://www.instagram.com/alexneilsmith_/'>
+              <img src={require('../img/index.png')} className='insta-icon' />
+            </a>
+          </h3>
         </div>
       </div>
       <div className='basic-grid'>
@@ -100,6 +106,13 @@ const About = () => {
       </div>
     </div>
   );
+};
+
+/**
+ * href links are annoying - overide the blue link text
+ */
+const styles = {
+  color: 'inherit'
 };
 
 export default About;

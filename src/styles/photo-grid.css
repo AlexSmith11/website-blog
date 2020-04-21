@@ -4,6 +4,7 @@
   margin-left: 1rem;
   margin-right: 1rem;
   margin-bottom: 1rem;
+
   /* 1 too skinny, too much code */
   /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
   /* 2 cleaner code */
@@ -19,10 +20,21 @@
   grid-row: span 2 / auto;
 }
 
-/* Small screens */
+@media screen and (min-width: 800px) {
+  /* this css will only be used when the screen size is min 800px */
+  .basic-grid {
+    height: 80vh;
+    overflow: auto;
+  }
+}
 
+/* Small screens */
 @media screen and (min-width: 600px) {
   .card-wide {
     grid-column: span 2 / auto;
   }
+}
+
+.insta-icon {
+  height: 2rem;
 }
