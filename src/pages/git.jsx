@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { useRouteMatch } from 'react-router-dom';
+import Table from '../components/Table.jsx';
 import '../styles/styles.css';
 import '../styles/git.css';
 
@@ -12,16 +13,17 @@ const About = () => {
   return (
     <div className='container'>
       <div className='title'>
-        <h1>GitHub Repo's.</h1>
-      </div>
-      <div className='text'>
-        <p>[Big Repo table here]</p>
+        <h1>Projects I have worked on.</h1>
         <p>
           <a href='https://github.com/AlexSmith11' style={styles}>
-            <u>[Link to my GitHub page]</u>
+            <h3>
+              My GitHub{' '}
+              <img src={require('../img/gitlogo.png')} className='git-icon' />
+            </h3>
           </a>
         </p>
       </div>
+      <Table />
     </div>
   );
 };
