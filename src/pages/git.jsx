@@ -16,9 +16,21 @@ const About = () => {
       </div>
       <div className='text'>
         <p>[Big Repo table here]</p>
+        <p>
+          <a href='https://github.com/AlexSmith11' style={styles}>
+            <u>[Link to my GitHub page]</u>
+          </a>
+        </p>
       </div>
     </div>
   );
+};
+
+/**
+ * href links are annoying - overide the blue link text
+ */
+const styles = {
+  color: 'inherit'
 };
 
 export default About;
