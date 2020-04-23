@@ -8,3 +8,16 @@
   font-family: Quicksand;
   font-size: 1.1rem;
 }
+
+td, th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+}
+
+table {
+  margin-top: 0.5rem;
+}
+
+.git-icon {
+  height: 2.5rem;
+}
