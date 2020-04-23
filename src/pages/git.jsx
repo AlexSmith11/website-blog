@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { useRouteMatch } from 'react-router-dom';
+import Table from '../components/Table.jsx';
 import '../styles/styles.css';
 import '../styles/git.css';
 
@@ -14,14 +15,7 @@ const About = () => {
       <div className='title'>
         <h1>GitHub Repo's.</h1>
       </div>
-      <div className='text'>
-        <p>[Big Repo table here]</p>
-        <p>
-          <a href='https://github.com/AlexSmith11' style={styles}>
-            <u>[Link to my GitHub page]</u>
-          </a>
-        </p>
-      </div>
+      <Table />
     </div>
   );
 };
