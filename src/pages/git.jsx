@@ -12,7 +12,7 @@ const About = () => {
   return (
     <div className='container'>
       <div className='title'>
-        <h1>GitHub Repositories</h1>
+        <h1>GitHub Repo's.</h1>
       </div>
       <div className='text'>
         <p>[Big Repo table here]</p>

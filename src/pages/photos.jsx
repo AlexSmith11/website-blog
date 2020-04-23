@@ -13,7 +13,7 @@ const About = () => {
     <div>
       <div className='container'>
         <div className='title'>
-          <h1>Some pictures I have taken</h1>
+          <h1>Some photos I have taken.</h1>
           <h3>
             More on{' '}
             <a href='https://www.instagram.com/alexneilsmith_/'>
@@ -25,13 +25,13 @@ const About = () => {
       <div className='basic-grid'>
         <div
           className='card'
-          style={{ backgroundImage: "url('https://i.imgur.com/BhZP03u.jpg')" }}>
+          style={{ backgroundImage: "url('https://i.imgur.com/ONKgYJQ.jpg')" }}>
           <a></a>
         </div>
         <div
           className='card card-tall'
           style={{
-            backgroundImage: "url('https://i.imgur.com/cxAZNPp.jpg')"
+            backgroundImage: "url('https://i.imgur.com/NSDQkkE.jpg')"
           }}></div>
         <div
           className='card card-tall'
@@ -61,7 +61,7 @@ const About = () => {
         <div
           className='card'
           style={{
-            backgroundImage: "url('https://i.imgur.com/9elBvTs.png')"
+            backgroundImage: "url('https://i.imgur.com/sg5vol9.jpg')"
           }}></div>
         <div
           className='card card-tall'
@@ -102,6 +102,16 @@ const About = () => {
           className='card'
           style={{
             backgroundImage: "url('https://i.imgur.com/sOBJAQA.jpg')"
+          }}></div>
+        <div
+          className='card card-tall'
+          style={{
+            backgroundImage: "url('https://i.imgur.com/APmo0hA.jpg')"
+          }}></div>
+        <div
+          className='card card-tall'
+          style={{
+            backgroundImage: "url('https://i.imgur.com/NX9eTPg.jpg')"
           }}></div>
       </div>
     </div>
