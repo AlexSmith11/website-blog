@@ -13,7 +13,7 @@ const About = () => {
     <div>
       <div className='container'>
         <div className='title'>
-          <h1>Some photos I have taken</h1>
+          <h1>Some photos I have taken.</h1>
           <h3>
             More on{' '}
             <a href='https://www.instagram.com/alexneilsmith_/'>
