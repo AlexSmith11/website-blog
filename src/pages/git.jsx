@@ -14,14 +14,14 @@ const About = () => {
     <div className='container'>
       <div className='title'>
         <h1>Projects I have worked on.</h1>
-        <p>
-          <a href='https://github.com/AlexSmith11' style={styles}>
-            <h3>
-              My GitHub{' '}
+        <div className='git-link'>
+          <h3>
+            My GitHub{' '}
+            <a href='https://github.com/AlexSmith11' style={styles}>
               <img src={require('../img/gitlogo.png')} className='git-icon' />
-            </h3>
-          </a>
-        </p>
+            </a>
+          </h3>
+        </div>
       </div>
       <Table />
     </div>
