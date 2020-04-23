@@ -8,6 +8,7 @@ import GitRepo from './pages/git';
 import Blog from './pages/blog';
 import About from './pages/about';
 import Photos from './pages/photos';
+import Standings from './pages/standings';
 
 /**
  * Import router
@@ -46,6 +47,9 @@ function App() {
           </Route>
           <Route path='/about'>
             <About />
+          </Route>
+          <Route path='/standings'>
+            <Standings />
           </Route>
         </Switch>
       </Router>
