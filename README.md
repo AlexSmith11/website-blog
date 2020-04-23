@@ -1,6 +1,6 @@
 ## Personal website
 
-This is the repo for my personal website.<br />
+This is the repo for my personal website. This is a work in progress.<br />
 It was created with CRA and uses Netlify and its continous deployment feature for production builds and hosting.<br />
 The purpose of this site is to help me expand my knowledge of front-end development through different, smaller projects.<br />
 These include setting up:<br />
@@ -14,7 +14,7 @@ An emphasis will be placed on making these features visually/aesthetically good 
 Designs for each page will be done by hand and then via Figma.<br />
 
 Quick design notes:<br />
-There are multiple css files because I'm 1: a noob with css and 2: wanting to have v different looks on various pages (one will be a photo gallery, another a github table) so keeping them seperate is easier. Afterwards, redundant code will be removed.
+There are multiple css files because I'm 1: a noob with css and 2: wanting to have v different looks on various pages (one will be a photo gallery, another a github table) so keeping them seperate is easier. Afterwards, redundant css will be removed.
 
 #This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
