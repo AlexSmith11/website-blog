@@ -1,10 +1,10 @@
 .basic-grid {
   display: grid;
   gap: 1rem;
+  margin-top: 2rem;
   margin-left: 1rem;
   margin-right: 1rem;
   margin-bottom: 1rem;
-
   /* 1 too skinny, too much code */
   /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
   /* 2 cleaner code */
@@ -29,6 +29,7 @@
 }
 
 /* Small screens */
+
 @media screen and (min-width: 600px) {
   .card-wide {
     grid-column: span 2 / auto;
