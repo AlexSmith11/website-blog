@@ -21,98 +21,101 @@ const About = () => {
             </a>
           </h3>
         </div>
-      </div>
-      <div className='basic-grid'>
-        <div
-          className='card'
-          style={{ backgroundImage: "url('https://i.imgur.com/ONKgYJQ.jpg')" }}>
-          <a></a>
+
+        <div className='basic-grid'>
+          <div
+            className='card'
+            style={{
+              backgroundImage: "url('https://i.imgur.com/ONKgYJQ.jpg')"
+            }}>
+            <a></a>
+          </div>
+          <div
+            className='card card-tall'
+            style={{
+              backgroundImage: "url('https://i.imgur.com/NSDQkkE.jpg')"
+            }}></div>
+          <div
+            className='card card-tall'
+            style={{
+              backgroundImage: "url('https://i.imgur.com/hse7Vu6.jpg')"
+            }}></div>
+          <div
+            className='card'
+            style={{
+              backgroundImage: "url('https://i.imgur.com/casNU6V.jpg')"
+            }}></div>
+          <div
+            className='card card-tall'
+            style={{
+              backgroundImage: "url('https://i.imgur.com/ILx0kCc.jpg')"
+            }}></div>
+          <div
+            className='card'
+            style={{
+              backgroundImage: "url('https://i.imgur.com/HoNqh2h.jpg')"
+            }}></div>
+          <div
+            className='card card-tall'
+            style={{
+              backgroundImage: "url('https://i.imgur.com/fSh9PNX.jpg')"
+            }}></div>
+          <div
+            className='card'
+            style={{
+              backgroundImage: "url('https://i.imgur.com/sg5vol9.jpg')"
+            }}></div>
+          <div
+            className='card card-tall'
+            style={{
+              backgroundImage: "url('https://i.imgur.com/hAUV8EA.jpg    ')"
+            }}></div>
+          <div
+            className='card'
+            style={{
+              backgroundImage: "url('https://i.imgur.com/9mZUiNY.jpg')"
+            }}></div>
+          <div
+            className='card'
+            style={{
+              backgroundImage: "url('https://i.imgur.com/MM2DLvM.jpg')"
+            }}></div>
+          <div
+            className='card'
+            style={{
+              backgroundImage: "url('https://i.imgur.com/Wa1lYJf.jpg')"
+            }}></div>
+          <div
+            className='card card-wide'
+            style={{
+              backgroundImage: "url('https://i.imgur.com/XZ5mF1F.jpg')"
+            }}></div>
+          <div
+            className='card card-tall'
+            style={{
+              backgroundImage: "url('https://i.imgur.com/akoNHJQ.jpg')"
+            }}></div>
+          <div
+            className='card'
+            style={{
+              backgroundImage: "url('https://i.imgur.com/825MISP.jpg')"
+            }}></div>
+          <div
+            className='card'
+            style={{
+              backgroundImage: "url('https://i.imgur.com/sOBJAQA.jpg')"
+            }}></div>
+          <div
+            className='card card-tall'
+            style={{
+              backgroundImage: "url('https://i.imgur.com/APmo0hA.jpg')"
+            }}></div>
+          <div
+            className='card card-tall'
+            style={{
+              backgroundImage: "url('https://i.imgur.com/NX9eTPg.jpg')"
+            }}></div>
         </div>
-        <div
-          className='card card-tall'
-          style={{
-            backgroundImage: "url('https://i.imgur.com/NSDQkkE.jpg')"
-          }}></div>
-        <div
-          className='card card-tall'
-          style={{
-            backgroundImage: "url('https://i.imgur.com/hse7Vu6.jpg')"
-          }}></div>
-        <div
-          className='card'
-          style={{
-            backgroundImage: "url('https://i.imgur.com/casNU6V.jpg')"
-          }}></div>
-        <div
-          className='card card-tall'
-          style={{
-            backgroundImage: "url('https://i.imgur.com/ILx0kCc.jpg')"
-          }}></div>
-        <div
-          className='card'
-          style={{
-            backgroundImage: "url('https://i.imgur.com/HoNqh2h.jpg')"
-          }}></div>
-        <div
-          className='card card-tall'
-          style={{
-            backgroundImage: "url('https://i.imgur.com/fSh9PNX.jpg')"
-          }}></div>
-        <div
-          className='card'
-          style={{
-            backgroundImage: "url('https://i.imgur.com/sg5vol9.jpg')"
-          }}></div>
-        <div
-          className='card card-tall'
-          style={{
-            backgroundImage: "url('https://i.imgur.com/hAUV8EA.jpg    ')"
-          }}></div>
-        <div
-          className='card'
-          style={{
-            backgroundImage: "url('https://i.imgur.com/9mZUiNY.jpg')"
-          }}></div>
-        <div
-          className='card'
-          style={{
-            backgroundImage: "url('https://i.imgur.com/MM2DLvM.jpg')"
-          }}></div>
-        <div
-          className='card'
-          style={{
-            backgroundImage: "url('https://i.imgur.com/Wa1lYJf.jpg')"
-          }}></div>
-        <div
-          className='card card-wide'
-          style={{
-            backgroundImage: "url('https://i.imgur.com/XZ5mF1F.jpg')"
-          }}></div>
-        <div
-          className='card card-tall'
-          style={{
-            backgroundImage: "url('https://i.imgur.com/akoNHJQ.jpg')"
-          }}></div>
-        <div
-          className='card'
-          style={{
-            backgroundImage: "url('https://i.imgur.com/825MISP.jpg')"
-          }}></div>
-        <div
-          className='card'
-          style={{
-            backgroundImage: "url('https://i.imgur.com/sOBJAQA.jpg')"
-          }}></div>
-        <div
-          className='card card-tall'
-          style={{
-            backgroundImage: "url('https://i.imgur.com/APmo0hA.jpg')"
-          }}></div>
-        <div
-          className='card card-tall'
-          style={{
-            backgroundImage: "url('https://i.imgur.com/NX9eTPg.jpg')"
-          }}></div>
       </div>
     </div>
   );
