@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { useRouteMatch } from 'react-router-dom';
 import Table from '../components/Table.jsx';
+import WorkExamples from '../components/WorkExamples.jsx';
 import '../styles/styles.css';
 import '../styles/git.css';
 
@@ -24,6 +25,7 @@ const About = () => {
         </div>
       </div>
       <Table />
+      <WorkExamples />
     </div>
   );
 };
