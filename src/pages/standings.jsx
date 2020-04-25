@@ -24,6 +24,7 @@ const About = () => {
                 <th scope='col'>Week 2</th>
                 <th scope='col'>Week 3</th>
                 <th scope='col'>Week 4</th>
+                <th scope='col'>Week 5</th>
               </tr>
             </thead>
             <tbody>
