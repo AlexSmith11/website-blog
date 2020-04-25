@@ -32,6 +32,7 @@ const About = () => {
                 <td>N/A</td>
                 <td>48.5</td>
                 <td>41</td>
+                <td>46</td>
                 <td></td>
               </tr>
               <tr>
@@ -39,6 +40,7 @@ const About = () => {
                 <td>60</td>
                 <td>79.5</td>
                 <td>59</td>
+                <td>52</td>
                 <td></td>
               </tr>
               <tr>
@@ -46,6 +48,7 @@ const About = () => {
                 <td>41.5</td>
                 <td>63</td>
                 <td>49</td>
+                <td>48</td>
                 <td></td>
               </tr>
               <tr>
@@ -53,6 +56,7 @@ const About = () => {
                 <td>33.5</td>
                 <td>N/A</td>
                 <td>21.5</td>
+                <td>30</td>
                 <td></td>
               </tr>
               <tr>
@@ -60,6 +64,7 @@ const About = () => {
                 <td>34</td>
                 <td>42</td>
                 <td>18</td>
+                <td>N/A</td>
                 <td></td>
               </tr>
               <tr>
@@ -67,6 +72,7 @@ const About = () => {
                 <td>36</td>
                 <td>38</td>
                 <td>N/A</td>
+                <td>25</td>
                 <td></td>
               </tr>
               <tr>
@@ -74,6 +80,7 @@ const About = () => {
                 <td>34.5</td>
                 <td>40</td>
                 <td>N/A</td>
+                <td>19</td>
                 <td></td>
               </tr>
               <tr>
@@ -81,6 +88,7 @@ const About = () => {
                 <td>52</td>
                 <td>75</td>
                 <td>49</td>
+                <td>47</td>
                 <td></td>
               </tr>
               <tr>
@@ -88,6 +96,7 @@ const About = () => {
                 <td>59</td>
                 <td>77</td>
                 <td>60</td>
+                <td>50</td>
                 <td></td>
               </tr>
             </tbody>
