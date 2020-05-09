@@ -26,6 +26,7 @@ const About = () => {
                 <th scope='col'>Week 4</th>
                 <th scope='col'>Week 5</th>
                 <th scope='col'>Week 6</th>
+                <th scope='col'>Week 7</th>
               </tr>
             </thead>
             <tbody>
@@ -36,6 +37,7 @@ const About = () => {
                 <td>41</td>
                 <td>46</td>
                 <td>41</td>
+                <td>29</td>
                 <td></td>
               </tr>
               <tr>
@@ -45,6 +47,7 @@ const About = () => {
                 <td>59</td>
                 <td>52</td>
                 <td>53</td>
+                <td>31</td>
                 <td></td>
               </tr>
               <tr>
@@ -54,6 +57,7 @@ const About = () => {
                 <td>49</td>
                 <td>48</td>
                 <td>45</td>
+                <td>31</td>
                 <td></td>
               </tr>
               <tr>
@@ -63,6 +67,7 @@ const About = () => {
                 <td>21.5</td>
                 <td>30</td>
                 <td>22</td>
+                <td>17</td>
                 <td></td>
               </tr>
               <tr>
@@ -72,6 +77,7 @@ const About = () => {
                 <td>18</td>
                 <td>N/A</td>
                 <td>21</td>
+                <td>14</td>
                 <td></td>
               </tr>
               <tr>
@@ -81,6 +87,7 @@ const About = () => {
                 <td>N/A</td>
                 <td>25</td>
                 <td>19</td>
+                <td>21</td>
                 <td></td>
               </tr>
               <tr>
@@ -90,6 +97,7 @@ const About = () => {
                 <td>N/A</td>
                 <td>19</td>
                 <td>N/A</td>
+                <td>20</td>
                 <td></td>
               </tr>
               <tr>
@@ -99,6 +107,7 @@ const About = () => {
                 <td>49</td>
                 <td>47</td>
                 <td>45</td>
+                <td>N/A</td>
                 <td></td>
               </tr>
               <tr>
@@ -108,6 +117,7 @@ const About = () => {
                 <td>60</td>
                 <td>50</td>
                 <td>54</td>
+                <td>46</td>
                 <td></td>
               </tr>
             </tbody>
