@@ -3,11 +3,26 @@ import { useRouteMatch } from 'react-router-dom';
 import '../styles/styles.css';
 import '../styles/cv.css';
 
+// const printScores = scores => {
+//   return scores.map(score => <td key={score}>{score}</td>);
+// };
+
 /**
- * Blog page
+ * Standings page
  */
 const About = () => {
   let match = useRouteMatch;
+
+  // Where there is a 0, the person was either not present or the quiz master
+  const amberScores = [0, 48.5, 41, 46, 41, 29, 43, 50.5, 34];
+  const elliotScores = [60, 79.5, 59, 52, 53, 31, 0, 57, 37];
+  const daisyScores = [41.5, 63, 49, 48, 45, 31, 42, 0, 39];
+  const mattyScores = [33.5, 0, 21.5, 30, 22, 17, 35, 25, 22];
+  const bradScores = [34, 42, 18, 0, 21, 14, 41, 38, 24];
+  const courtneyScores = [36, 38, 0, 25, 19, 21, 46, 24.5, 17];
+  const jessScores = [34.5, 40, 0, 19, 0, 20, 40, 41, 25];
+  const kaiScores = [52, 75, 49, 47, 45, 0, 38, 48, 34];
+  const alexScores = [59, 77, 60, 50, 54, 46, 51, 57, 0];
 
   return (
     <div className='container'>
@@ -27,98 +42,65 @@ const About = () => {
                 <th scope='col'>Week 5</th>
                 <th scope='col'>Week 6</th>
                 <th scope='col'>Week 7</th>
+                <th scope='col'>Week 8</th>
+                <th scope='col'>Week 9</th>
+                <th scope='col'>Everyone</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <th>Amber</th>
-                <td>N/A</td>
-                <td>48.5</td>
-                <td>41</td>
-                <td>46</td>
-                <td>41</td>
-                <td>29</td>
-                <td></td>
+                {amberScores.map(score => (
+                  <td key={score}>{score}</td>
+                ))}
               </tr>
               <tr>
                 <th>Elliot</th>
-                <td>60</td>
-                <td>79.5</td>
-                <td>59</td>
-                <td>52</td>
-                <td>53</td>
-                <td>31</td>
-                <td></td>
+                {elliotScores.map(score => (
+                  <td key={score}>{score}</td>
+                ))}
               </tr>
               <tr>
                 <th>Daisy</th>
-                <td>41.5</td>
-                <td>63</td>
-                <td>49</td>
-                <td>48</td>
-                <td>45</td>
-                <td>31</td>
-                <td></td>
+                {daisyScores.map(score => (
+                  <td key={score}>{score}</td>
+                ))}
               </tr>
               <tr>
                 <th>Matty</th>
-                <td>33.5</td>
-                <td>N/A</td>
-                <td>21.5</td>
-                <td>30</td>
-                <td>22</td>
-                <td>17</td>
-                <td></td>
+                {mattyScores.map(score => (
+                  <td key={score}>{score}</td>
+                ))}
               </tr>
               <tr>
                 <th>Brad</th>
-                <td>34</td>
-                <td>42</td>
-                <td>18</td>
-                <td>N/A</td>
-                <td>21</td>
-                <td>14</td>
-                <td></td>
+                {bradScores.map(score => (
+                  <td key={score}>{score}</td>
+                ))}
               </tr>
               <tr>
                 <th>Courtney</th>
-                <td>36</td>
-                <td>38</td>
-                <td>N/A</td>
-                <td>25</td>
-                <td>19</td>
-                <td>21</td>
-                <td></td>
+                {courtneyScores.map(score => (
+                  <td key={score}>{score}</td>
+                ))}
               </tr>
               <tr>
                 <th>Jess</th>
-                <td>34.5</td>
-                <td>40</td>
-                <td>N/A</td>
-                <td>19</td>
-                <td>N/A</td>
-                <td>20</td>
-                <td></td>
+                {jessScores.map(score => (
+                  <td key={score}>{score}</td>
+                ))}
               </tr>
               <tr>
                 <th>Kai</th>
-                <td>52</td>
-                <td>75</td>
-                <td>49</td>
-                <td>47</td>
-                <td>45</td>
-                <td>N/A</td>
-                <td></td>
+                {kaiScores.map(score => (
+                  <td key={score}>{score}</td>
+                ))}
               </tr>
               <tr>
                 <th>Alex</th>
-                <td>59</td>
-                <td>77</td>
-                <td>60</td>
-                <td>50</td>
-                <td>54</td>
-                <td>46</td>
-                <td></td>
+                {alexScores.map(score => (
+                  <td key={score}>{score}</td>
+                ))}
               </tr>
             </tbody>
           </table>
