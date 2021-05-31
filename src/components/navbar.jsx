@@ -37,11 +37,11 @@ class TopNav extends Component {
                   Projects
                 </Nav.Link>
               </div>
-              <div className='navbutton'>
+              {/* <div className='navbutton'>
                 <Nav.Link as={Link} to='blog'>
                   Blog
                 </Nav.Link>
-              </div>
+              </div> */}
               <div className='navbutton'>
                 <Nav.Link as={Link} to='photos'>
                   Gallery

@@ -5,7 +5,7 @@ const Skills = () => {
     <div className='text'>
       <h3>Skills</h3>
       <p>
-        These are some technical skills I have picked up. This isn't necessarily
+        These are some technical skills I have picked up. This isn&apos;t necessarily
         comprehensive, but here are most of the main points:
       </p>
       <h4>Languages</h4>
@@ -31,15 +31,15 @@ const Skills = () => {
             <li>Laravel</li>
             <li>React</li>
             <li>Redux</li>
-            <li>Angular</li>
+            <li>Xamarin</li>
           </ul>
         </div>
         <div className='col-5'>
           <ul>
-            <li>JQuery</li>
-            <li>Wordpress</li>
-            <li>EmberJS</li>
             <li>Node/Express</li>
+            <li>.NET</li>
+            <li>NextJS</li>
+            <li>Angular</li>
           </ul>
         </div>
       </div>
@@ -47,9 +47,9 @@ const Skills = () => {
       <div className='row'>
         <div className='col-5'>
           <ul>
-            <li>Git</li>
+            <li>Git/Lab</li>
             <li>AWS</li>
-            <li>GitLab</li>
+            <li>Wordpress</li>
             <li>Netlify</li>
             <li>Vim</li>
             <li>Gulp</li>
@@ -62,7 +62,7 @@ const Skills = () => {
             <li>MySQL</li>
             <li>PostgreSQL</li>
             <li>MongoDB</li>
-            <li>Socket IO</li>
+            <li>Socket.IO</li>
           </ul>
         </div>
       </div>

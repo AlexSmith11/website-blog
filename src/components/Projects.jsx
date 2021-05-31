@@ -9,6 +9,9 @@ const Projects = () => {
       </p>
       <ul>
         <li>
+          A C# .NET mobile app that is essentially Amazon for pub owners, that can even operate offline.
+        </li>
+        <li>
           A real-time, AWS hosted vehicle tracking telelmatics application
           running on EmberJS and PHP Laravel.
         </li>

@@ -13,14 +13,24 @@ import '../styles/home.css';
 const Main = () => {
   return (
     <div className='container'>
+
       <div className='row'>
         <div className='col-sm'>
           <div className='title'>
-            <h1>Hello, my name is Alex. I'm a software engineer.</h1>
-            <h3>I also like to take photos.</h3>
+            <h1>Hello, my name is Alex.</h1>
           </div>
         </div>
       </div>
+
+      <div className='row'>
+      <div className='col-md-8'>
+            <div className='text'>
+                <p>I&apos;m a Bristol based software engineer who specialises in custom backend solutions.
+                    Currently, I&apos;m an engineer at Redwing Interactive focussed on building accessible, human focussed products.</p>
+            </div>
+          </div>
+      </div>
+
       <div className='row'>
         <div className='col-lg'>
           <About />

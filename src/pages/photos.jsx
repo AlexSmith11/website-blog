@@ -38,27 +38,7 @@ const About = () => {
           <div
             className='card card-tall'
             style={{
-              backgroundImage: "url('https://i.imgur.com/hse7Vu6.jpg')"
-            }}></div>
-          <div
-            className='card'
-            style={{
-              backgroundImage: "url('https://i.imgur.com/casNU6V.jpg')"
-            }}></div>
-          <div
-            className='card card-tall'
-            style={{
-              backgroundImage: "url('https://i.imgur.com/ILx0kCc.jpg')"
-            }}></div>
-          <div
-            className='card'
-            style={{
-              backgroundImage: "url('https://i.imgur.com/HoNqh2h.jpg')"
-            }}></div>
-          <div
-            className='card card-tall'
-            style={{
-              backgroundImage: "url('https://i.imgur.com/fSh9PNX.jpg')"
+              backgroundImage: "url('https://i.imgur.com/S8SkIKp.png')"
             }}></div>
           <div
             className='card'
@@ -68,7 +48,32 @@ const About = () => {
           <div
             className='card card-tall'
             style={{
+              backgroundImage: "url('https://i.imgur.com/ILx0kCc.jpg')"
+            }}></div>
+          <div
+            className='card'
+            style={{
+              backgroundImage: "url('https://i.imgur.com/ChNTBeE.png')"
+            }}></div>
+          <div
+            className='card card-tall'
+            style={{
+              backgroundImage: "url('https://i.imgur.com/fSh9PNX.jpg')"
+            }}></div>
+          <div
+            className='card'
+            style={{
+              backgroundImage: "url('https://i.imgur.com/BwvYvvO.png')"
+            }}></div>
+          <div
+            className='card card-tall'
+            style={{
               backgroundImage: "url('https://i.imgur.com/hAUV8EA.jpg    ')"
+            }}></div>
+          <div
+            className='card card-tall'
+            style={{
+              backgroundImage: "url('https://i.imgur.com/rZGClrX.png')"
             }}></div>
           <div
             className='card'
@@ -78,12 +83,7 @@ const About = () => {
           <div
             className='card'
             style={{
-              backgroundImage: "url('https://i.imgur.com/MM2DLvM.jpg')"
-            }}></div>
-          <div
-            className='card'
-            style={{
-              backgroundImage: "url('https://i.imgur.com/Wa1lYJf.jpg')"
+              backgroundImage: "url('https://i.imgur.com/pNYtTX0.png')"
             }}></div>
           <div
             className='card card-wide'
@@ -101,7 +101,7 @@ const About = () => {
               backgroundImage: "url('https://i.imgur.com/825MISP.jpg')"
             }}></div>
           <div
-            className='card'
+            className='card card-tall'
             style={{
               backgroundImage: "url('https://i.imgur.com/sOBJAQA.jpg')"
             }}></div>
@@ -110,11 +110,11 @@ const About = () => {
             style={{
               backgroundImage: "url('https://i.imgur.com/APmo0hA.jpg')"
             }}></div>
-          <div
+          {/* <div
             className='card card-tall'
             style={{
               backgroundImage: "url('https://i.imgur.com/NX9eTPg.jpg')"
-            }}></div>
+            }}></div> */}
         </div>
       </div>
     </div>

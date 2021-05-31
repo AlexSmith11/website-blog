@@ -18,6 +18,9 @@
   },
   "rules": {
     "react/react-in-jsx-scope": "off",
-    "react/prop-types": [2, { "ignore": ["children"] }]
+    "react/prop-types": [2, { "ignore": ["children"] }],
+    "react/jsx-uses-react": "error",   
+    "react/jsx-uses-vars": "error",
+    "no-unused-vars": 0
   }
 }

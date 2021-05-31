@@ -20,14 +20,29 @@ const Table = () => {
                 <a
                   href='https://github.com/AlexSmith11/website-blog'
                   style={styles}>
-                  Website / Blog
+                  Website
                 </a>
               </td>
-              <td>Current Website. Focus on developing front-end skills.</td>
+              <td>Current Website.</td>
               <td>JS, React</td>
               <td>19/04/2020</td>
               <td>3.13MB</td>
             </tr>
+
+            <tr>
+              <td scope='row'>
+                <a
+                  href='https://github.com/AlexSmith11/game-of-life'
+                  style={styles}>
+                  Game of Life
+                </a>
+              </td>
+              <td>An implementation of Conways&apos;s Game of Life.</td>
+              <td>Typescript, React</td>
+              <td>9/01/2021</td>
+              <td>8.64KB</td>
+            </tr>
+
             <tr>
               <td scope='row'>
                 <a
@@ -41,6 +56,7 @@ const Table = () => {
               <td>22/11/2016</td>
               <td>472KB</td>
             </tr>
+
             <tr>
               <td scope='row'>
                 <a
@@ -56,6 +72,7 @@ const Table = () => {
               <td>27/11/2019</td>
               <td>1.05MB</td>
             </tr>
+
             <tr>
               <td scope='row'>
                 <a
@@ -72,6 +89,7 @@ const Table = () => {
               <td>03/02/2019</td>
               <td>52.7MB</td>
             </tr>
+
             <tr>
               <td scope='row'>
                 <a href='https://github.com/Pyxyll/Form-pc' style={styles}>
@@ -86,6 +104,7 @@ const Table = () => {
               <td>13/03/2020</td>
               <td>12.55MB</td>
             </tr>
+
             <tr>
               <td scope='row'>
                 <a
@@ -99,6 +118,7 @@ const Table = () => {
               <td>21/02/2020</td>
               <td>7.5MB</td>
             </tr>
+
             <tr>
               <td scope='row'>
                 <a
@@ -112,6 +132,7 @@ const Table = () => {
               <td>15/02/2020</td>
               <td>6.6MB</td>
             </tr>
+
             <tr>
               <td scope='row'>
                 <a
@@ -128,6 +149,7 @@ const Table = () => {
               <td>10/10/2018</td>
               <td>37.2MB</td>
             </tr>
+
             <tr>
               <td scope='row'>
                 <a href='https://github.com/AlexSmith11/uni-db' style={styles}>
