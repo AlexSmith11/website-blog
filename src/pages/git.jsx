@@ -17,9 +17,8 @@ const About = () => {
         <h1>Projects I have worked on.</h1>
         <div className='git-link'>
           <h3>
-            My GitHub{' '}
             <a href='https://github.com/AlexSmith11' style={styles}>
-              <img src={require('../img/gitlogo.png')} className='git-icon' />
+              <u>My GitHub</u>
             </a>
           </h3>
         </div>

@@ -14,12 +14,12 @@ const About = () => {
       <div className='container'>
         <div className='title'>
           <h1>Some photos I have taken.</h1>
-          <h3>
+          {/* <h3>
             More on{' '}
             <a href='https://www.instagram.com/alexneilsmith_/'>
               <img src={require('../img/index.png')} className='insta-icon' />
             </a>
-          </h3>
+          </h3> */}
         </div>
 
         <div className='basic-grid'>
