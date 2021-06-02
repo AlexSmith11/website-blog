@@ -13,7 +13,6 @@ import '../styles/home.css';
 const Main = () => {
   return (
     <div className='container'>
-
       <div className='row'>
         <div className='col-sm'>
           <div className='title'>
@@ -23,12 +22,16 @@ const Main = () => {
       </div>
 
       <div className='row'>
-      <div className='col-md-8'>
-            <div className='text'>
-                <p>I&apos;m a Bristol based software engineer who specialises in custom backend solutions.
-                    Currently, I&apos;m an engineer at Redwing Interactive focussed on building accessible, human focussed products.</p>
-            </div>
+        <div className='col-md-8'>
+          <div className='text'>
+            <p>
+              I&apos;m a Bristol based software engineer who specialises in
+              custom backend solutions. Currently, I&apos;m an engineer at
+              Redwing Interactive focussed on building accessible, human
+              focussed products.
+            </p>
           </div>
+        </div>
       </div>
 
       <div className='row'>

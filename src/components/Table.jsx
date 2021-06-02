@@ -19,8 +19,8 @@ const Table = () => {
             <tr>
               <td scope='row'>
                 <a
-                  href='https://github.com/AlexSmith11/website-blog'
-                  style={styles}>
+                  className='fromLeft'
+                  href='https://github.com/AlexSmith11/website-blog'>
                   Website
                 </a>
               </td>
@@ -33,8 +33,8 @@ const Table = () => {
             <tr>
               <td scope='row'>
                 <a
-                  href='https://github.com/AlexSmith11/game-of-life'
-                  style={styles}>
+                  className='fromLeft'
+                  href='https://github.com/AlexSmith11/game-of-life'>
                   Game of Life
                 </a>
               </td>
@@ -47,8 +47,8 @@ const Table = () => {
             <tr>
               <td scope='row'>
                 <a
-                  href='https://github.com/AlexSmith11/CAM-translator'
-                  style={styles}>
+                  className='fromLeft'
+                  href='https://github.com/AlexSmith11/CAM-translator'>
                   CAM Translator
                 </a>
               </td>
@@ -61,8 +61,8 @@ const Table = () => {
             <tr>
               <td scope='row'>
                 <a
-                  href='https://github.com/AlexSmith11/FullCalendarScheduler'
-                  style={styles}>
+                  className='fromLeft'
+                  href='https://github.com/AlexSmith11/FullCalendarScheduler'>
                   Full Calendar Scheduler
                 </a>
               </td>
@@ -77,8 +77,8 @@ const Table = () => {
             <tr>
               <td scope='row'>
                 <a
-                  href='https://github.com/AlexSmith11/MajorProjectMK2'
-                  style={styles}>
+                  className='fromLeft'
+                  href='https://github.com/AlexSmith11/MajorProjectMK2'>
                   Dissertation
                 </a>
               </td>
@@ -93,7 +93,9 @@ const Table = () => {
 
             <tr>
               <td scope='row'>
-                <a href='https://github.com/Pyxyll/Form-pc' style={styles}>
+                <a
+                  className='fromLeft'
+                  href='https://github.com/Pyxyll/Form-pc'>
                   Form-PC
                 </a>
               </td>
@@ -109,8 +111,8 @@ const Table = () => {
             <tr>
               <td scope='row'>
                 <a
-                  href='https://github.com/AlexSmith11/monster-hunter-dictionary'
-                  style={styles}>
+                  className='fromLeft'
+                  href='https://github.com/AlexSmith11/monster-hunter-dictionary'>
                   Monster Hunter Dictionary
                 </a>
               </td>
@@ -123,8 +125,8 @@ const Table = () => {
             <tr>
               <td scope='row'>
                 <a
-                  href='https://github.com/AlexSmith11/product-cards'
-                  style={styles}>
+                  className='fromLeft'
+                  href='https://github.com/AlexSmith11/product-cards'>
                   Product Cards
                 </a>
               </td>
@@ -137,8 +139,8 @@ const Table = () => {
             <tr>
               <td scope='row'>
                 <a
-                  href='https://github.com/AlexSmith11/basic-android-app'
-                  style={styles}>
+                  className='fromLeft'
+                  href='https://github.com/AlexSmith11/basic-android-app'>
                   Android TODO
                 </a>
               </td>
@@ -153,7 +155,9 @@ const Table = () => {
 
             <tr>
               <td scope='row'>
-                <a href='https://github.com/AlexSmith11/uni-db' style={styles}>
+                <a
+                  className='fromLeft'
+                  href='https://github.com/AlexSmith11/uni-db'>
                   Uni DB
                 </a>
               </td>

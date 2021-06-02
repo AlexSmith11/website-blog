@@ -24,3 +24,34 @@ table {
 .git-icon {
   height: 2.5rem;
 }
+
+/* links */
+.table-hover tbody tr td a {
+  display: inline-block;
+  color: #64ffda;
+  margin: 0;
+}
+.table-hover tbody tr:hover td a {
+  color: #64ffda;
+  text-decoration: none;
+}
+.table-hover tbody tr:hover td a:hover {
+  color: #64ffda;
+  text-decoration: none;
+}
+
+.table-hover tbody tr:hover td a:after {
+  display: block;
+  content: '';
+  border-bottom: solid 1px #64ffda;
+  transform: scaleX(0);
+  transition: transform 125ms ease-in-out;
+}
+.table-hover tbody tr:hover td a:hover:after {
+  color: #64ffda;
+  transform: scaleX(1);
+}
+.table-hover tbody tr:hover td a.fromLeft:after {
+  color: inherit;
+  transform-origin: 0% 50%;
+}

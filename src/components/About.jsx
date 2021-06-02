@@ -20,19 +20,12 @@ const About = () => {
       </p>
       <p>
         Get in touch:{' '}
-        <a href='mailto:alexsmith11nd@gmail.com' style={styles}>
-          <u>alexsmith11nd@gmail.com</u>
+        <a className='fromLeft' href='mailto:alexsmith11nd@gmail.com'>
+          alexsmith11nd@gmail.com
         </a>
       </p>
     </div>
   );
-};
-
-/**
- * mailto links are annoying - overide the blue link text
- */
-const styles = {
-  color: '#64ffda'
 };
 
 export default About;

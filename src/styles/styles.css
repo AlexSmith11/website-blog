@@ -1,32 +1,144 @@
 /* Global styles go in here. Page specific styles should be placed in the relative css file. */
+a[href^='mailto:'] {
+  color: #64ffda;
+  text-decoration: none;
+}
+a[href^='mailto:']:hover {
+  color: #64ffda;
+  text-decoration: none;
+}
+a {
+  color: #64ffda;
+  text-decoration: none;
+}
+a:hover {
+  color: #64ffda;
+  text-decoration: none;
+}
+
 p {
-  color: black;
+  display: inline-block;
   color: #8892b0;
 }
 
-a {
-  color: #a8b2d1;
+/* links within p */
+p a {
+  display: inline-block;
+  color: #64ffda;
+  margin: 0;
+}
+p a:after {
+  display: block;
+  content: '';
+  border-bottom: solid 1px #64ffda;
+  transform: scaleX(0);
+  transition: transform 125ms ease-in-out;
+}
+p a:hover:after {
+  color: #64ffda;
+  transform: scaleX(1);
+}
+p a.fromLeft:after {
+  color: inherit;
+  transform-origin: 0% 50%;
 }
 
 h1 {
   font-family: Quicksand;
-  color: black;
+  display: inline-block;
   color: #a8b2d1;
 }
 
 h2 {
   font-family: Quicksand;
-  color: black;
+  display: inline-block;
   color: #a8b2d1;
 }
 
 h3 {
   font-family: Quicksand;
-  color: black;
+  display: inline-block;
   color: #a8b2d1;
 }
 
+/* links within h3 */
+h3 a {
+  display: inline-block;
+  color: #64ffda;
+  margin: 0;
+}
+h3 a:after {
+  display: block;
+  content: '';
+  border-bottom: solid 1px #64ffda;
+  transform: scaleX(0);
+  transition: transform 125ms ease-in-out;
+}
+h3 a:hover:after {
+  color: #64ffda;
+  transform: scaleX(1);
+}
+h3 a.fromLeft:after {
+  color: inherit;
+  transform-origin: 0% 50%;
+}
+h3 a[href^='mailto:'] {
+  color: #64ffda;
+  text-decoration: none;
+}
+h3 a[href^='mailto:']:hover {
+  color: #64ffda;
+  text-decoration: none;
+}
+h3 a {
+  color: #64ffda;
+  text-decoration: none;
+}
+h3 a:hover {
+  color: #64ffda;
+  text-decoration: none;
+}
+
 .text {
+  display: inline-block;
   font-family: Quicksand;
   color: #8892b0;
+}
+
+/* links within lists */
+li a {
+  display: inline-block;
+  color: #64ffda;
+  margin: 0;
+}
+li a:after {
+  display: block;
+  content: '';
+  border-bottom: solid 1px #64ffda;
+  transform: scaleX(0);
+  transition: transform 125ms ease-in-out;
+}
+li a:hover:after {
+  color: #64ffda;
+  transform: scaleX(1);
+}
+li a.fromLeft:after {
+  color: inherit;
+  transform-origin: 0% 50%;
+}
+li a[href^='mailto:'] {
+  color: #64ffda;
+  text-decoration: none;
+}
+li a[href^='mailto:']:hover {
+  color: #64ffda;
+  text-decoration: none;
+}
+li a {
+  color: #64ffda;
+  text-decoration: none;
+}
+li a:hover {
+  color: #64ffda;
+  text-decoration: none;
 }

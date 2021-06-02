@@ -26,8 +26,8 @@ const Projects = () => {
         </li>
         <li>
           Android app that takes all exoplanets that have been categorised by{' '}
-          <a href='http://exoplanet.eu/' style={styles}>
-            <u>exoplanet.eu</u>
+          <a className='fromLeft' href='http://exoplanet.eu/'>
+            exoplanet.eu
           </a>{' '}
           and displays them with various graphs and ways to interact with the
           data. Built with Java.
@@ -35,13 +35,6 @@ const Projects = () => {
       </ul>
     </div>
   );
-};
-
-/**
- * href links are annoying - overide the blue link text
- */
-const styles = {
-  color: '#64ffda'
 };
 
 export default Projects;

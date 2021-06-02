@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { useRouteMatch } from 'react-router-dom';
+import '../styles/styles.css';
 import Table from '../components/Table.jsx';
 import WorkExamples from '../components/WorkExamples.jsx';
-import '../styles/styles.css';
-import '../styles/git.css';
 
 /**
  * Git Repo page
@@ -17,8 +16,8 @@ const About = () => {
         <h1>Projects I have worked on.</h1>
         <div className='git-link'>
           <h3>
-            <a href='https://github.com/AlexSmith11' style={styles}>
-              <u>My GitHub</u>
+            <a className='fromLeft' href='https://github.com/AlexSmith11'>
+              My GitHub
             </a>
           </h3>
         </div>
@@ -27,13 +26,6 @@ const About = () => {
       <WorkExamples />
     </div>
   );
-};
-
-/**
- * href links are annoying - overide the blue link text
- */
-const styles = {
-  color: '#64ffda'
 };
 
 export default About;
