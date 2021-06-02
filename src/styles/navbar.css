@@ -12,7 +12,7 @@
 }
 
 .navbar-color-1 {
-  background-color: #fcf6dd;
+  background-color: #0a192f;
   margin-top: 15px;
 }
 
@@ -20,6 +20,10 @@
   margin-left: 1rem;
   padding-top: 0rem;
   font-size: 3rem;
+}
+
+a.nav-link {
+  color: #8892b0;
 }
 
 hr {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { useRouteMatch } from 'react-router-dom';
 import '../styles/styles.css';
-import '../styles/cv.css';
+import '../styles/table.css';
 
 // const printScores = scores => {
 //   return scores.map(score => <td key={score}>{score}</td>);

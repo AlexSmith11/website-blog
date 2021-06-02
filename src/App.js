@@ -26,6 +26,7 @@ import {
  */
 import './App.css';
 
+// this is for routing & rendering, NOT the navbar
 function App() {
   return (
     <div>

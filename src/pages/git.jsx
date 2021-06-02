@@ -33,7 +33,7 @@ const About = () => {
  * href links are annoying - overide the blue link text
  */
 const styles = {
-  color: 'inherit'
+  color: '#64ffda'
 };
 
 export default About;

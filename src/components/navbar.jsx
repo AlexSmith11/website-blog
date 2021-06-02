@@ -4,6 +4,9 @@ import PropTypes from 'prop-types';
 import { Link, withRouter } from 'react-router-dom';
 import '../styles/navbar.css';
 
+/**
+ * Physical render of the navbar and its buttons
+ */
 class TopNav extends Component {
   propTypes = {
     match: PropTypes.object.isRequired,
@@ -16,7 +19,7 @@ class TopNav extends Component {
 
     return (
       <div className='navbarTop'>
-        <Navbar variant='light' className='navbar-color-1' expand='lg'>
+        <Navbar expand='lg'>
           <div>
             <h1 className='pageName'>
               {location.pathname.substring(1).charAt(0).toUpperCase() +
@@ -28,30 +31,29 @@ class TopNav extends Component {
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ml-auto'>
               <div className='navbutton'>
-                <Nav.Link as={Link} to='home'>
+                <Nav.Link style={stylesText} as={Link} to='home'>
                   Home
                 </Nav.Link>
               </div>
               <div className='navbutton'>
-                <Nav.Link as={Link} to='git'>
+                <Nav.Link style={stylesText} as={Link} to='git'>
                   Projects
                 </Nav.Link>
               </div>
-              {/* <div className='navbutton'>
-                <Nav.Link as={Link} to='blog'>
-                  Blog
-                </Nav.Link>
-              </div> */}
               <div className='navbutton'>
-                <Nav.Link as={Link} to='photos'>
+                <Nav.Link style={stylesText} as={Link} to='photos'>
                   Gallery
                 </Nav.Link>
               </div>
-              {/* <div className='navbutton'>
-              <Nav.Link as={Link} to='about'>
-                About
-              </Nav.Link>
-            </div> */}
+              <div className='navbutton'>
+                <a
+                  href='https://drive.google.com/file/d/1ZhgktGoH7PLSkOcaIAKzeKLHOZAlB84R/view?usp=sharing'
+                  style={stylesResumeLink}>
+                  <Nav.Link style={stylesResumeText} as='span'>
+                    Resume
+                  </Nav.Link>
+                </a>
+              </div>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
@@ -60,5 +62,18 @@ class TopNav extends Component {
     );
   }
 }
+
+const stylesResumeLink = {
+  color: 'inherit',
+  textDecoration: 'none'
+};
+
+const stylesResumeText = {
+  color: '#64ffda'
+};
+
+const stylesText = {
+  color: '#8892b0'
+};
 
 export default withRouter(TopNav);

@@ -9,7 +9,8 @@ const Projects = () => {
       </p>
       <ul>
         <li>
-          A C# .NET mobile app that is essentially Amazon for pub owners, that can even operate offline.
+          A C# .NET mobile app that is essentially Amazon for pub owners, that
+          can even operate offline.
         </li>
         <li>
           A real-time, AWS hosted vehicle tracking telelmatics application
@@ -40,7 +41,7 @@ const Projects = () => {
  * href links are annoying - overide the blue link text
  */
 const styles = {
-  color: 'inherit'
+  color: '#64ffda'
 };
 
 export default Projects;

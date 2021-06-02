@@ -1,9 +1,10 @@
 import React from 'react';
+import '../styles/git.css';
 
 const Table = () => {
   return (
     <div className='text'>
-      <div style={styles}>
+      <div>
         <table className='table-hover'>
           <thead>
             <tr>
@@ -175,7 +176,7 @@ const Table = () => {
  * mailto links are annoying - overide the blue link text
  */
 const styles = {
-  color: 'inherit',
+  color: '#64ffda',
   overflow: 'auto'
 };
 

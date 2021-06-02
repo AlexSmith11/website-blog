@@ -1,27 +1,32 @@
 /* Global styles go in here. Page specific styles should be placed in the relative css file. */
 p {
   color: black;
+  color: #8892b0;
 }
 
 a {
-  color: black;
+  color: #a8b2d1;
 }
 
 h1 {
   font-family: Quicksand;
   color: black;
+  color: #a8b2d1;
 }
 
 h2 {
   font-family: Quicksand;
   color: black;
+  color: #a8b2d1;
 }
 
 h3 {
   font-family: Quicksand;
   color: black;
+  color: #a8b2d1;
 }
 
 .text {
   font-family: Quicksand;
+  color: #8892b0;
 }
