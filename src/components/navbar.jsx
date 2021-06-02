@@ -50,7 +50,7 @@ class TopNav extends Component {
                   href='https://drive.google.com/file/d/1ZhgktGoH7PLSkOcaIAKzeKLHOZAlB84R/view?usp=sharing'
                   style={stylesResumeLink}>
                   <Nav.Link style={stylesResumeText} as='span'>
-                    Resume
+                    Résumé
                   </Nav.Link>
                 </a>
               </div>
