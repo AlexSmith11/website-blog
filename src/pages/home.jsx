@@ -16,7 +16,9 @@ const Main = () => {
       <div className='row'>
         <div className='col-sm'>
           <div className='title'>
-            <h1>Hello, my name is Alex.</h1>
+            <h1>
+              <span style={helloStyle}>Hello,</span> my name is Alex.
+            </h1>
           </div>
         </div>
       </div>
@@ -52,6 +54,10 @@ const Main = () => {
       </div>
     </div>
   );
+};
+
+const helloStyle = {
+  color: '#64ffda'
 };
 
 export default Main;
