@@ -57,7 +57,7 @@ class TopNav extends Component {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-        <hr />
+        {/* <hr /> */}
       </div>
     );
   }
