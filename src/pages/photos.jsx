@@ -17,7 +17,6 @@ const About = () => {
   };
 
   const checker = () => {
-    console.log('also here');
     // need to check if another image is already open first (?)
     setCheck(prevCheck => !prevCheck);
   };
