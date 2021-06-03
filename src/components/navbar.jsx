@@ -45,10 +45,11 @@ class TopNav extends Component {
                   Gallery
                 </Nav.Link>
               </div>
-              <div className='navbutton'>
+              <div className='navbutton-resume'>
                 <a
                   href='https://drive.google.com/file/d/1ZhgktGoH7PLSkOcaIAKzeKLHOZAlB84R/view?usp=sharing'
-                  style={stylesResumeLink}>
+                  style={stylesResumeLink}
+                  target='blank'>
                   <Nav.Link style={stylesResumeText} as='span'>
                     Résumé
                   </Nav.Link>

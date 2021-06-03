@@ -32,8 +32,10 @@ const Table = () => {
               onMouseOver=''
               style={cursorStyle}
               onClick={() =>
-                (window.location.href =
-                  'https://github.com/AlexSmith11/website-blog')
+                window.open(
+                  'https://github.com/AlexSmith11/website-blog',
+                  '_blank'
+                )
               }>
               <td scope='row'>
                 <a
@@ -52,8 +54,10 @@ const Table = () => {
               onMouseOver=''
               style={cursorStyle}
               onClick={() =>
-                (window.location.href =
-                  'https://github.com/AlexSmith11/Fallout4CharacterGen')
+                window.open(
+                  'https://github.com/AlexSmith11/Fallout4CharacterGen',
+                  '_blank'
+                )
               }>
               <td scope='row'>
                 <a
@@ -75,8 +79,10 @@ const Table = () => {
               onMouseOver=''
               style={cursorStyle}
               onClick={() =>
-                (window.location.href =
-                  'https://github.com/AlexSmith11/game-of-life')
+                window.open(
+                  'https://github.com/AlexSmith11/game-of-life',
+                  '_blank'
+                )
               }>
               <td scope='row'>
                 <a
@@ -95,8 +101,10 @@ const Table = () => {
               onMouseOver=''
               style={cursorStyle}
               onClick={() =>
-                (window.location.href =
-                  'https://github.com/AlexSmith11/CAM-translator')
+                window.open(
+                  'https://github.com/AlexSmith11/CAM-translator',
+                  '_blank'
+                )
               }>
               <td scope='row'>
                 <a
@@ -115,8 +123,10 @@ const Table = () => {
               onMouseOver=''
               style={cursorStyle}
               onClick={() =>
-                (window.location.href =
-                  'https://github.com/AlexSmith11/FullCalendarScheduler')
+                window.open(
+                  'https://github.com/AlexSmith11/FullCalendarScheduler',
+                  '_blank'
+                )
               }>
               <td scope='row'>
                 <a
@@ -137,8 +147,10 @@ const Table = () => {
               onMouseOver=''
               style={cursorStyle}
               onClick={() =>
-                (window.location.href =
-                  'https://github.com/AlexSmith11/MajorProjectMK2')
+                window.open(
+                  'https://github.com/AlexSmith11/MajorProjectMK2',
+                  '_blank'
+                )
               }>
               <td scope='row'>
                 <a
@@ -160,7 +172,7 @@ const Table = () => {
               onMouseOver=''
               style={cursorStyle}
               onClick={() =>
-                (window.location.href = 'https://github.com/Pyxyll/Form-pc')
+                window.open('https://github.com/Pyxyll/Form-pc', '_blank')
               }>
               <td scope='row'>
                 <a
@@ -182,8 +194,10 @@ const Table = () => {
               onMouseOver=''
               style={cursorStyle}
               onClick={() =>
-                (window.location.href =
-                  'https://github.com/AlexSmith11/monster-hunter-dictionary')
+                window.open(
+                  'https://github.com/AlexSmith11/monster-hunter-dictionary',
+                  '_blank'
+                )
               }>
               <td scope='row'>
                 <a
@@ -202,8 +216,10 @@ const Table = () => {
               onMouseOver=''
               style={cursorStyle}
               onClick={() =>
-                (window.location.href =
-                  'https://github.com/AlexSmith11/product-cards')
+                window.open(
+                  'https://github.com/AlexSmith11/product-cards',
+                  '_blank'
+                )
               }>
               <td scope='row'>
                 <a
@@ -222,8 +238,10 @@ const Table = () => {
               onMouseOver=''
               style={cursorStyle}
               onClick={() =>
-                (window.location.href =
-                  'https://github.com/AlexSmith11/basic-android-app')
+                window.open(
+                  'https://github.com/AlexSmith11/basic-android-app',
+                  '_blank'
+                )
               }>
               <td scope='row'>
                 <a
@@ -245,11 +263,12 @@ const Table = () => {
               onMouseOver=''
               style={cursorStyle}
               onClick={() =>
-                (window.location.href = 'https://github.com/AlexSmith11/uni-db')
+                window.open('https://github.com/AlexSmith11/uni-db', '_blank')
               }>
               <td scope='row'>
                 <a
                   className='fromLeft'
+                  target='blank'
                   href='https://github.com/AlexSmith11/uni-db'>
                   Uni DB
                 </a>
