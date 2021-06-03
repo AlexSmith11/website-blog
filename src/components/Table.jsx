@@ -1,11 +1,23 @@
 import React from 'react';
 import '../styles/git.css';
 
+/**
+ * mailto links are annoying - overide the blue link text
+ */
+const styles = {
+  color: '#64ffda',
+  overflow: 'auto'
+};
+
+const cursorStyle = {
+  cursor: 'pointer'
+};
+
 const Table = () => {
   return (
     <div className='text'>
       <div>
-        <table className='table-hover'>
+        <table className='table-hover' onMouseOver=''>
           <thead>
             <tr>
               <th scope='col'>Title</th>
@@ -15,8 +27,14 @@ const Table = () => {
               <th scope='col'>Size</th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
+          <tbody onMouseOver=''>
+            <tr
+              onMouseOver=''
+              style={cursorStyle}
+              onClick={() =>
+                (window.location.href =
+                  'https://github.com/AlexSmith11/website-blog')
+              }>
               <td scope='row'>
                 <a
                   className='fromLeft'
@@ -30,11 +48,17 @@ const Table = () => {
               <td>3.13MB</td>
             </tr>
 
-            <tr>
+            <tr
+              onMouseOver=''
+              style={cursorStyle}
+              onClick={() =>
+                (window.location.href =
+                  'https://github.com/AlexSmith11/Fallout4CharacterGen')
+              }>
               <td scope='row'>
                 <a
                   className='fromLeft'
-                  href='https://github.com/AlexSmith11/website-blog'>
+                  href='https://github.com/AlexSmith11/Fallout4CharacterGen'>
                   Fallout 4 Character generator
                 </a>
               </td>
@@ -47,7 +71,13 @@ const Table = () => {
               <td>700KB</td>
             </tr>
 
-            <tr>
+            <tr
+              onMouseOver=''
+              style={cursorStyle}
+              onClick={() =>
+                (window.location.href =
+                  'https://github.com/AlexSmith11/game-of-life')
+              }>
               <td scope='row'>
                 <a
                   className='fromLeft'
@@ -61,7 +91,13 @@ const Table = () => {
               <td>8.64KB</td>
             </tr>
 
-            <tr>
+            <tr
+              onMouseOver=''
+              style={cursorStyle}
+              onClick={() =>
+                (window.location.href =
+                  'https://github.com/AlexSmith11/CAM-translator')
+              }>
               <td scope='row'>
                 <a
                   className='fromLeft'
@@ -75,7 +111,13 @@ const Table = () => {
               <td>472KB</td>
             </tr>
 
-            <tr>
+            <tr
+              onMouseOver=''
+              style={cursorStyle}
+              onClick={() =>
+                (window.location.href =
+                  'https://github.com/AlexSmith11/FullCalendarScheduler')
+              }>
               <td scope='row'>
                 <a
                   className='fromLeft'
@@ -91,7 +133,13 @@ const Table = () => {
               <td>1.05MB</td>
             </tr>
 
-            <tr>
+            <tr
+              onMouseOver=''
+              style={cursorStyle}
+              onClick={() =>
+                (window.location.href =
+                  'https://github.com/AlexSmith11/MajorProjectMK2')
+              }>
               <td scope='row'>
                 <a
                   className='fromLeft'
@@ -108,7 +156,12 @@ const Table = () => {
               <td>52.7MB</td>
             </tr>
 
-            <tr>
+            <tr
+              onMouseOver=''
+              style={cursorStyle}
+              onClick={() =>
+                (window.location.href = 'https://github.com/Pyxyll/Form-pc')
+              }>
               <td scope='row'>
                 <a
                   className='fromLeft'
@@ -125,7 +178,13 @@ const Table = () => {
               <td>12.55MB</td>
             </tr>
 
-            <tr>
+            <tr
+              onMouseOver=''
+              style={cursorStyle}
+              onClick={() =>
+                (window.location.href =
+                  'https://github.com/AlexSmith11/monster-hunter-dictionary')
+              }>
               <td scope='row'>
                 <a
                   className='fromLeft'
@@ -139,7 +198,13 @@ const Table = () => {
               <td>7.5MB</td>
             </tr>
 
-            <tr>
+            <tr
+              onMouseOver=''
+              style={cursorStyle}
+              onClick={() =>
+                (window.location.href =
+                  'https://github.com/AlexSmith11/product-cards')
+              }>
               <td scope='row'>
                 <a
                   className='fromLeft'
@@ -153,7 +218,13 @@ const Table = () => {
               <td>6.6MB</td>
             </tr>
 
-            <tr>
+            <tr
+              onMouseOver=''
+              style={cursorStyle}
+              onClick={() =>
+                (window.location.href =
+                  'https://github.com/AlexSmith11/basic-android-app')
+              }>
               <td scope='row'>
                 <a
                   className='fromLeft'
@@ -170,7 +241,12 @@ const Table = () => {
               <td>37.2MB</td>
             </tr>
 
-            <tr>
+            <tr
+              onMouseOver=''
+              style={cursorStyle}
+              onClick={() =>
+                (window.location.href = 'https://github.com/AlexSmith11/uni-db')
+              }>
               <td scope='row'>
                 <a
                   className='fromLeft'
@@ -191,14 +267,6 @@ const Table = () => {
       </div>
     </div>
   );
-};
-
-/**
- * mailto links are annoying - overide the blue link text
- */
-const styles = {
-  color: '#64ffda',
-  overflow: 'auto'
 };
 
 export default Table;
