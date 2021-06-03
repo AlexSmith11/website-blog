@@ -34,6 +34,23 @@ const Table = () => {
               <td scope='row'>
                 <a
                   className='fromLeft'
+                  href='https://github.com/AlexSmith11/website-blog'>
+                  Fallout 4 Character generator
+                </a>
+              </td>
+              <td>
+                RPG character generator. Parses CSVs into JSON to use elsewhere.
+                Produces a list of stats to use in game.
+              </td>
+              <td>C#, .NET Core</td>
+              <td>31/05/2021</td>
+              <td>700KB</td>
+            </tr>
+
+            <tr>
+              <td scope='row'>
+                <a
+                  className='fromLeft'
                   href='https://github.com/AlexSmith11/game-of-life'>
                   Game of Life
                 </a>
