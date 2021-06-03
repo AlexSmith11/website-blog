@@ -20,7 +20,10 @@ const About = () => {
       </p>
       <p>
         Get in touch:{' '}
-        <a className='fromLeft' href='mailto:alexsmith11nd@gmail.com'>
+        <a
+          className='fromLeft'
+          href='mailto:alexsmith11nd@gmail.com'
+          target='blank'>
           alexsmith11nd@gmail.com
         </a>
       </p>

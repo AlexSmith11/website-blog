@@ -110,11 +110,11 @@ const About = () => {
             style={{
               backgroundImage: "url('https://i.imgur.com/APmo0hA.jpg')"
             }}></div>
-          {/* <div
+          <div
             className='card card-tall'
             style={{
               backgroundImage: "url('https://i.imgur.com/NX9eTPg.jpg')"
-            }}></div> */}
+            }}></div>
         </div>
       </div>
     </div>

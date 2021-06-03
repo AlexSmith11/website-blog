@@ -26,7 +26,7 @@ const Projects = () => {
         </li>
         <li>
           Android app that takes all exoplanets that have been categorised by{' '}
-          <a className='fromLeft' href='http://exoplanet.eu/'>
+          <a className='fromLeft' href='http://exoplanet.eu/' target='blank'>
             exoplanet.eu
           </a>{' '}
           and displays them with various graphs and ways to interact with the
