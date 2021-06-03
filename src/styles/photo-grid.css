@@ -15,9 +15,6 @@
   /* 4 final */
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   grid-auto-rows: 240px;
-
-  resize: horizontal;
-  resize: ver;
 }
 
 .card-tall {

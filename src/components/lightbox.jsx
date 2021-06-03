@@ -13,7 +13,6 @@ const LightboxHandler = (onClick, imgUrl) => {
 
   return (
     <div>
-      <h1>hello</h1>
       <div href='#' className='lightbox'>
         <span
           onClick={event}
