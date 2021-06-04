@@ -18,9 +18,7 @@ const LightboxHandler = (onClick, imgUrl) => {
           onClick={event}
           style={{
             backgroundImage: `url('${tempUrl}')`
-          }}>
-          hiya
-        </span>
+          }}></span>
       </div>
     </div>
   );
