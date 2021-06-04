@@ -70,3 +70,18 @@ table {
   transform-origin: 0% 50%;
   cursor: 'pointer';
 }
+
+/* hide cols for mobile view */
+@media screen and (max-width: 800px) {
+  .table-hover thead tr th:nth-child(2),
+  .table-hover thead tr th:nth-child(4),
+  .table-hover thead tr th:nth-child(5) {
+    display: none;
+  }
+
+  .table-hover tbody tr td:nth-child(2),
+  .table-hover tbody tr td:nth-child(4),
+  .table-hover tbody tr td:nth-child(5) {
+    display: none;
+  }
+}
