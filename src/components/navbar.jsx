@@ -19,7 +19,7 @@ class TopNav extends Component {
 
     return (
       <div className='navbarTop'>
-        <Navbar expand='lg'>
+        <Navbar expand='lg' variant='dark'>
           <div>
             <h1 className='pageName'>
               {location.pathname.substring(1).charAt(0).toUpperCase() +
