@@ -28,9 +28,15 @@ const Main = () => {
           <div className='text'>
             <p>
               I&apos;m a Bristol based software engineer who specialises in
-              custom backend solutions. Currently, I&apos;m an engineer at
-              Redwing Interactive focussed on building accessible, human
-              focussed products.
+              custom backend solutions. Currently, I&apos;m an engineer at{' '}
+              <a
+                style={linkStyle}
+                target='blank'
+                className='fromLeft'
+                href='https://www.red-wing.com/'>
+                Redwing Interactive
+              </a>{' '}
+              focussed on building accessible, human focussed products.
             </p>
           </div>
         </div>
@@ -54,6 +60,10 @@ const Main = () => {
       </div>
     </div>
   );
+};
+
+const linkStyle = {
+  textDecoration: 'none'
 };
 
 const helloStyle = {
