@@ -5,8 +5,8 @@ const Skills = () => {
     <div className='text'>
       <h3>Skills</h3>
       <p>
-        These are some technical skills I have picked up. This isn&apos;t necessarily
-        comprehensive, but here are most of the main points:
+        These are some technical skills I have picked up. This isn&apos;t
+        necessarily comprehensive, but here are most of the main points:
       </p>
       <h4>Languages</h4>
       <div className='row'>
@@ -21,6 +21,7 @@ const Skills = () => {
           <ul>
             <li>Python</li>
             <li>PHP</li>
+            <li>Swift</li>
           </ul>
         </div>
       </div>

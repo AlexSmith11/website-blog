@@ -5,8 +5,8 @@ const About = () => {
     <div className='text'>
       <h3>About me</h3>
       <p>
-        I graduated two years ago, and have since worked in both web and mobile
-        roles.
+        I graduated four years ago, and have since worked in web,
+        infrastructure, and mobile roles.
       </p>
       <p>
         I&apos;ve excellent communication and organisational skills, and highly
@@ -16,7 +16,7 @@ const About = () => {
       </p>
       <p>
         When I&apos;m not doing computer stuff you&apos;ll find me on some hill
-        hiking, biking, or just trying to get a good shot.
+        hiking, biking, or climbing.
       </p>
       <p>
         Get in touch:{' '}
