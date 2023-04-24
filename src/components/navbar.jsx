@@ -47,7 +47,7 @@ class TopNav extends Component {
               </div>
               <div className='navbutton-resume'>
                 <a
-                  href='https://drive.google.com/file/d/1tntXfQ4ksqwUgNlxPOnFZ5uTT_cGEW4w/view?usp=sharing'
+                  href='https://drive.google.com/file/d/16gxFNzlNwIQISlxHQIXg_JaGfHbdL1tc/view?usp=sharing'
                   style={stylesResumeLink}
                   target='blank'>
                   <Nav.Link style={stylesResumeText} as='span'>
