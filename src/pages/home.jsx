@@ -28,15 +28,17 @@ const Main = () => {
           <div className='text'>
             <p>
               I&apos;m a Bristol based software engineer who specialises in
-              custom backend solutions. Currently, I&apos;m an engineer at{' '}
+              custom backend solutions & app development. Currently, I&apos;m an
+              engineer at{' '}
               <a
                 style={linkStyle}
                 target='blank'
                 className='fromLeft'
-                href='https://www.red-wing.com/'>
-                Redwing Interactive
+                href='https://www.madetech.com/'>
+                MadeTech
               </a>{' '}
-              focussed on building accessible, human focussed products.
+              focussed on building accessible, human focussed products for the
+              public sector.
             </p>
           </div>
         </div>
